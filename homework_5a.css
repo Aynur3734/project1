@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+}
+
+.parent {
+  position: relative;
+  background-color: #e4f9f5;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+#child1 {
+  align-self: flex-end;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+#child2 {
+  color: rgb(51, 66, 99);
+}
+#child2 h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+#child2 p {
+  text-align: center;
+}
+#child2 p span {
+  text-decoration: underline;
+}
+
+#child3 {
+  align-self: flex-start;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+#child4 {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.parent_2 {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+#img {
+  margin-top: 90px;
+}
+
+#hello {
+  font-size: 2rem;
+  color: #66bfbf;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text {
+  text-align: center;
+  width: 367px;
+  height: 200px;
+  line-height: 25px;
+}
+
+hr {
+  text-align: center;
+  border: none;
+  border-top: 0.5em dotted lightblue;
+  width: 5em;
+  margin: 0em auto;
+}
+
+.parent_3 {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(91, 240, 188);
+  text-align: center;
+}
+
+
+#gif {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 50px;
+  
+}
+
+.gif1 {
+  min-width: 200px;
+  max-width: 200px;
+  margin-right: 20px;
+}
+#gif1 {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.gif1 img {
+  width: 100%;
+}
+.gif2 h3 {
+  color: teal;
+  margin-bottom: 10px;
+}
+
+
+h3 {
+  color: teal;
+}
+
+
+.parent_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+button {
+  border: none;
+  background-color: rgb(20, 245, 140);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(25, 196, 130);
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .link_0 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: #2b1a6b;
+  margin: 0 20px;
+}
+.link_2 {
+  color: #ffffff;
+  margin-top: 40px;
+}
+
